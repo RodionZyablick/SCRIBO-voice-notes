@@ -1,0 +1,34 @@
+{
+ "examples": [
+  "Привет запятая как дела вопросительный знак",
+  "Заголовок план на неделю",
+  "Купить молоко, хлеб, сыр и яйца",
+  "Таблица товар дальше цена строка хлеб дальше 40 конец таблицы",
+  "Я встречусь в 7, нет лучше в 8"
+ ],
+ "accents": [
+  "#4f46e5",
+  "#0f766e",
+  "#c026d3",
+  "#e11d48",
+  "#2563eb"
+ ],
+ "whisperNames": {
+  "hi": "hindi",
+  "nl": "dutch",
+  "cs": "czech",
+  "vi": "vietnamese",
+  "id": "indonesian",
+  "he": "hebrew",
+  "sv": "swedish",
+  "no": "norwegian",
+  "da": "danish",
+  "fi": "finnish",
+  "el": "greek",
+  "ro": "romanian",
+  "hu": "hungarian",
+  "bg": "bulgarian",
+  "th": "thai",
+  "fa": "persian"
+ }
+}

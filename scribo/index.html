@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Скрибо — говори, оно напишет</title><meta name="theme-color" content="#4f46e5"><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon.svg"><link id="fav" rel="icon">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="extras.css"><link rel="stylesheet" href="modern.css"></head><body>
+<div id="top"><button id="burger" aria-label="Меню" title="Меню">☰</button><span class="lg"></span><input id="title" value="Без названия" aria-label="Название"><span id="sv">Сохранено</span><span class="sp"></span>
+ <select id="from" aria-label="Говорю на"></select><button id="swap" title="Поменять языки">⇄</button><select id="to" aria-label="Перевод на"></select>
+ <button id="trt" aria-pressed="true">Перевод</button></div>
+<nav id="dr"><div id="dh"><span class="lg"></span><div>Скрибо<small>говори — оно напишет</small></div></div><div id="dt"></div><div id="dc"></div></nav><div id="scrim"></div>
+<div id="tb"></div>
+<div id="wrap"><div id="cv"><article id="ed" contenteditable="true" data-ph="Нажмите на микрофон и говорите — или просто пишите, как в обычном редакторе."></article></div>
+ <aside id="side"><div class="sh">Перевод<span class="sp"></span><button id="trall">Перевести всё</button><button id="spk" aria-pressed="false" title="Озвучивать переводы">🔊</button></div><div id="tr" contenteditable="true" data-ph="Здесь появится перевод."></div><div id="chat" hidden></div></aside></div>
+<div id="pill"><button id="mic" aria-label="Микрофон" title="Ctrl+Пробел">●</button><span id="meter"><i></i><i></i><i></i><i></i><i></i></span><span id="live">Загрузка…</span></div>
+<div class="foot"><input id="say" placeholder="Или напечатайте фразу и нажмите Enter — она обработается как речь"><span id="stat"></span><span id="today"></span><span class="wm">@ Родион</span></div>
+<input type="file" id="file" accept=".docx,.txt,.md,.html,.htm" hidden>
+<dialog id="dlg"></dialog><div id="toast"></div>
+<script src="data.js"></script><script src="app.js"></script><script src="extras.js"></script><script src="i18n.js"></script><script src="settings.js"></script><script src="smart.js"></script></body></html>
